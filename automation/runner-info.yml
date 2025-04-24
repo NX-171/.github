@@ -1,9 +1,0 @@
-on:
-  push: $default-branch
-
-jobs:
-  runner-info:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Printing runner info
-        run: echo '{{toJson(runner}}'
