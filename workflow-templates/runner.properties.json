@@ -1,5 +1,4 @@
 {
   "name": "print runner info",
   "description": "print information about runner"
-  "categories": ["automation","runner"] 
 }
