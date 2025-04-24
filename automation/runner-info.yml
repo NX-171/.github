@@ -1,4 +1,6 @@
-on: push
+on:
+  push: $default-branch
+
 jobs:
   runner-info:
     runs-on: ubuntu-latest
